@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vw;
-    background-color: azure;
+    background-color: rgb(200, 248, 248);
 }
 
 main {
@@ -35,7 +35,7 @@ main {
 }
 
 .cabecalho-link {
-    color: rgba(207, 80, 57, 0.788);
+    color: rgba(85, 171, 252, 0.788);
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ h1 {
 footer {
     background-color: rgb(221, 212, 212);
     padding: 15px 25px;
-    color: darkred;
+    color: rgb(75, 198, 219);
 }
 
 .cartao-interno {
@@ -67,7 +67,7 @@ footer {
     backface-visibility: hidden;
 }
 .cartao-verso {
-    transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
 section {
     display:flex;
